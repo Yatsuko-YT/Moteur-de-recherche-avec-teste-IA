@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+body{
+    font-family: Sedan;
+    margin: 0;
+}
+
+#wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel{
+    width: 1300px;
+    height: 600px; /* a retirer */
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#panel_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.panel_nb{
+    width: 15%;
+}
+
+.panel_titre{
+    width: 30%;
+}
+
+.panel_description{
+    width: 35%;
+}
+
+.panel_action{
+    width: 20%;
+}
+
+.ligne_article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn_view{
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #145114;
+}
+
+.btn_edit{
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #c16209;
+}
+
+.btn_delete{
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #630b0b;
+}
+
+#ajout{
+    padding: 30px 0;
+    text-align: center;
+}
+
+#btn_ajout{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #2e09c1;
+}
